@@ -6,7 +6,7 @@ A modern portfolio website built with Next.js and TailwindCSS.
 
 - Responsive design
 - Smooth animations
-- Contact form
+- Contact Page & Form
 - Project showcase
 - SEO optimized
 
