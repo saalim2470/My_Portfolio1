@@ -10,7 +10,7 @@ const Error: NextPage<ErrorProps> = ({ statusCode }) => {
   return (
     <>
       <Head>
-        <title>Error | Piyush Chauhan Portfolio</title>
+        <title>Error | Saalim Shaikh Portfolio</title>
       </Head>
       <div className="min-h-screen flex items-center justify-center px-4">
         <div className="text-center">

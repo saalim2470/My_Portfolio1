@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Piyush Chauhan | Portfolio</title>
-        <meta name="description" content="ReactJS Developer Portfolio for Piyush Chauhan" />
+        <title>Saalim Shaikh | Portfolio</title>
+        <meta name="description" content="ReactJS Developer Portfolio for Saalim Shaikh" />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         {/* Hero Section */}
@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-                  Hi, I'm <span className="text-yellow-300">Piyush Chauhan</span>
+                  Hi, I'm <span className="text-yellow-300">Saalim Shaikh</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl mb-6">
                   ReactJS Developer

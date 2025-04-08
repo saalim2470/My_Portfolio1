@@ -56,12 +56,12 @@ const Navbar = () => {
             className="font-bold text-2xl group flex items-center"
           >
             <div className="w-10 h-10 mr-2 rounded-full bg-indigo-600 flex items-center justify-center text-white">
-              PC
+              SS
             </div>
             {isScrolled ? (
-              <span className="text-indigo-600 group-hover:text-indigo-800 transition-colors duration-300">Piyush Chauhan</span>
+              <span className="text-indigo-600 group-hover:text-indigo-800 transition-colors duration-300">Saalim Shaikh</span>
             ) : (
-              <span className="text-white group-hover:text-yellow-300 transition-colors duration-300">Piyush Chauhan</span>
+              <span className="text-white group-hover:text-yellow-300 transition-colors duration-300">Saalim Shaikh</span>
             )}
           </Link>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
               {[
                 { name: 'Home', path: '/' },
                 { name: 'About', path: '/about' },
-                { name: 'Projects', path: '/projects' },
+                // { name: 'Projects', path: '/projects' },
                 { name: 'Contact', path: '/contact' },
               ].map((item) => (
                 <li key={item.name}>

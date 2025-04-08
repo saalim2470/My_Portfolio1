@@ -44,9 +44,10 @@ export default function About() {
 
   const education = [
     {
-      degree: 'Bachelor of Engineering in Computer Engineering',
-      institution: 'Gujarat Technological University, Ahmedabad',
-      year: '2025 - Present',
+      degree: 'Bachelor of Computer Application (BCA)',
+      institution: 'Veer Narmad South Gujarat University,Surat',
+      year: '2021',
+      // year: '2025 - Present',
       cgpa: '7.85/10',
     },
   ];
@@ -54,7 +55,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Me | Piyush Chauhan Portfolio</title>
+        <title>About Me | Saalim Shaikh Portfolio</title>
         <meta name="description" content="Learn more about Piyush Chauhan, a ReactJS developer with experience in modern web technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
