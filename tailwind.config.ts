@@ -82,7 +82,7 @@ module.exports = {
           '50%': { transform: 'rotate(3deg)' },
         }
       },
-      typography: (theme) => ({
+      typography: (theme: (path: string) => string) => ({
         DEFAULT: {
           css: {
             color: theme('colors.secondary.700'),
@@ -95,6 +95,7 @@ module.exports = {
           },
         },
       }),
+      
     },
   },
   plugins: [
