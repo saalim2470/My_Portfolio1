@@ -78,7 +78,7 @@ export default function Projects() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredProjects = allProjects.filter(project => {
-    const categoryMatch = activeCategory === 'All' || project.category === activeCategory || project.category1 === activeCategory;
+    const categoryMatch = activeCategory === 'All' || project?.category === activeCategory || project?.category1 === activeCategory;
     const searchMatch = 
       project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       project.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -104,6 +104,19 @@ export default function Projects() {
             <div className="flex flex-wrap gap-2">
               {categories.map((category, category1) => (
                 <button
+                  key={category}
+                  onClick={() => setActiveCategory(category)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition duration-300 ${
+                    activeCategory === category
+                      ? 'bg-indigo-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+              {/* {categories.map((category, category1) => (
+                <button
                   key={category || category1}
                   onClick={() => setActiveCategory(category || category1)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition duration-300 ${
@@ -114,7 +127,7 @@ export default function Projects() {
                 >
                   {category || category1}
                 </button>
-              ))}
+              ))} */}
             </div>
             <div className="relative w-full md:w-64 mt-6">
               <input

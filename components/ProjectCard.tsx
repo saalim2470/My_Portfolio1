@@ -12,7 +12,7 @@ interface ProjectProps {
     tags: string[];
     link: string;
     category: string;
-    category1: string;
+    category1?: string;
   };
 }
 
@@ -33,7 +33,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-xl font-bold">{project.title}</h3>
           <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs font-semibold rounded">
-            {project.category || project.category1}
+            {project?.category || project?.category1}
           </span>
         </div>
         <p className="text-gray-700 mb-4 line-clamp-3">
