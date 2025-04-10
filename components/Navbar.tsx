@@ -73,6 +73,7 @@ const Navbar = () => {
                 { name: 'About', path: '/about' },
                 // { name: 'Projects', path: '/projects' },
                 { name: 'Contact', path: '/contact' },
+                { name: 'Resume', path: '/files/saalimResume.pdf' },
               ].map((item) => (
                 <li key={item.name}>
                   <Link 
@@ -137,6 +138,7 @@ const Navbar = () => {
               { name: 'About', path: '/about' },
               // { name: 'Projects', path: '/projects' },
               { name: 'Contact', path: '/contact' },
+              { name: 'Resume', path: '/files/saalimResume.pdf' },
             ].map((item) => (
               <Link 
                 key={item.name} 
