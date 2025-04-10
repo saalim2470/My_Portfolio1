@@ -11,12 +11,13 @@ export default function Home() {
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20">
+        <section className="bg-slate-800 text-rose-100 py-20">
+        {/* <section className="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20"> */}
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-                  Hi, I'm <span className="text-yellow-300">Saalim Shaikh</span>
+                  Hi, I'm <span className="text-rose-400">Saalim Shaikh</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl mb-6">
                   ReactJS Developer
@@ -26,26 +27,26 @@ export default function Home() {
                 <div className="flex space-x-4">
                   <Link
                     href="/contact"
-                    className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-md font-semibold transition duration-300"
+                    className="bg-rose-500 hover:bg-rose-600 text-slate-300 px-6 py-3 rounded-md font-semibold transition duration-300"
                   >
                     Contact Me
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/projects"
-                    className="border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-6 py-3 rounded-md font-semibold transition duration-300"
+                    className="border-2 border-rose-100 hover:bg-rose-100 hover:text-slate-800 text-rose-100 px-6 py-3 rounded-md font-semibold transition duration-300"
                   >
                     View Projects
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="md:w-1/2">
-                <div className="w-64 h-64 mx-auto rounded-full border-4 border-white shadow-xl overflow-hidden">
+                <div className="w-64 h-64 mx-auto overflow-hidden">
                   <Image
-                    src="/images/profile.jpg"
-                    alt="Piyush Chauhan"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"
+                    alt="Saalim Shaikh"
                     width={256}
                     height={256}
-                    className="object-cover w-full h-full"
+                    className="object-contain w-full h-full"
                     unoptimized
                   />
                 </div>
@@ -68,7 +69,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/about"
-                  className="text-indigo-600 font-semibold hover:text-indigo-800 transition duration-300"
+                  className="text-rose-600 font-semibold hover:text-rose-800 transition duration-300"
                 >
                   Learn more about me →
                 </Link>

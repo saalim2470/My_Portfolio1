@@ -59,7 +59,7 @@ export default function About() {
         <meta name="description" content="Learn more about Piyush Chauhan, a ReactJS developer with experience in modern web technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
-        <section className="py-20 bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+        <section className="py-20 bg-slate-800 text-rose-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">About Me</h1>
             <p className="text-xl">Aspiring ReactJS developer with hands-on experience in building scalable web applications.</p>

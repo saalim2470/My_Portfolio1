@@ -68,7 +68,7 @@ export default function Contact() {
         <meta name="description" content="Get in touch with Piyush Chauhan for collaboration opportunities or to discuss your project ideas." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
-        <section className="py-20 bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+        <section className="py-20 bg-slate-800 text-rose-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">Get In Touch</h1>
             <p className="text-xl">Have a project in mind or want to collaborate? Let's talk!</p>
@@ -215,7 +215,7 @@ export default function Contact() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="btn btn-primary w-full"
+                      className="btn btn-primary w-full bg-rose-500 hover:bg-rose-600 text-slate-300"
                     >
                       {isSubmitting ? 'Sending...' : 'Send Message'}
                     </button>
