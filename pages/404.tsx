@@ -5,9 +5,9 @@ export default function Custom404() {
   return (
     <>
       <Head>
-        <title>Page Not Found | PiyushSaalim Shaikh Portfolio</title>
+        <title>Page Not Found | Saalim Shaikh Portfolio</title>
       </Head>
-      <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+      <div className="min-h-screen flex items-center justify-center px-4 bg-slate-800 text-rose-100">
         <div className="text-center">
           <h1 className="text-9xl font-bold mb-4">404</h1>
           <p className="text-2xl mb-8">Oops! Page not found</p>

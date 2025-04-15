@@ -48,7 +48,7 @@ export default function About() {
       institution: 'Veer Narmad South Gujarat University,Surat',
       year: '2021',
       // year: '2025 - Present',
-      cgpa: '7.85/10',
+      cgpa: '7.30/10',
     },
   ];
 
@@ -56,7 +56,7 @@ export default function About() {
     <>
       <Head>
         <title>About Me | Saalim Shaikh Portfolio</title>
-        <meta name="description" content="Learn more about Piyush Chauhan, a ReactJS developer with experience in modern web technologies." />
+        <meta name="description" content="Learn more about Saalim Shaikh, a ReactJS developer with experience in modern web technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         <section className="py-20 bg-slate-800 text-rose-100">
