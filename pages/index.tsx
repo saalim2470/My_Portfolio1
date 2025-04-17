@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Saalim Shaikh | Portfolio</title>
-        <meta name="description" content="ReactJS Developer Portfolio for Saalim Shaikh" />
+      <title>Home | Saalim Shaikh Portfolio</title>
+
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         {/* Hero Section */}
         <section className="bg-slate-800 text-rose-100 py-20">
-        {/* <section className="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20"> */}
+          {/* <section className="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20"> */}
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -20,10 +20,10 @@ export default function Home() {
                   Hi, I'm <span className="text-rose-400">Saalim Shaikh</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl mb-6">
-                  ReactJS Developer
+                  React Developer
                 </h2>
                 <p className="text-lg mb-8">
-                  Passionate about building scalable web applications using ReactJS and the MERN stack, with a strong focus on performance, user experience, and modern web technologies. Constantly exploring new tools and best practices to enhance development efficiency and scalability.                </p>
+                  Passionate Full-Stack Developer skilled in ReactJS, React Native, and the MERN stack, focused on building scalable and high-performance web & mobile apps. I love exploring modern tools and best practices to enhance user experience and development efficiency.                </p>
                 <div className="flex space-x-4">
                   <Link
                     href="/contact"
@@ -62,10 +62,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <p className="text-lg text-gray-700 mb-6">
-                  I am a ReactJS developer with experience in frontend and backend technologies. I have completed internships at IBM SkillBuild, Codsoft, and Infolabz, building applications using ReactJS, MERN stack, and AI solutions.
+                  Hi, I’m a passionate Full-Stack Developer with expertise in ReactJS, React Native, and the MERN stack. I love building modern, scalable, and user-friendly web and mobile applications.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Recently, I developed an Expense Tracker using ReactJS and Firebase for real-time financial management.
+                  From designing interactive UIs to developing robust backend systems, I focus on delivering high-performance solutions with clean and maintainable code. My development process always keeps performance, user experience, and scalability at the center.
+                </p>
+                <p className='text-lg text-gray-700 mb-6'>
+                  I’m continuously exploring new technologies, tools, and best practices to keep improving and staying ahead in this fast-moving tech world.
                 </p>
                 <Link
                   href="/about"
@@ -78,15 +81,15 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-indigo-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Frontend</h3>
-                    <p>ReactJS, Next.js, Bootstrap, TailwindCSS</p>
+                    <p>ReactJS, React Native, Next.js, Bootstrap, TailwindCSS</p>
                   </div>
                   <div className="bg-blue-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Backend</h3>
-                    <p>Node.js, Express, MongoDB, Firebase</p>
+                    <p>Node.js, Express, MongoDB, Firebase, .Net Web API</p>
                   </div>
                   <div className="bg-purple-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Projects</h3>
-                    <p>Expense Tracker, Blogging Platform, Task Management Tool & more</p>
+                    <p>Education Syatem, Social Media App, Task Management Tool & more</p>
                   </div>
                   <div className="bg-green-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Tools</h3>

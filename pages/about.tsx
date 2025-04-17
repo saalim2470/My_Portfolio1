@@ -10,34 +10,16 @@ export default function About() {
 
   const experience = [
     {
-      title: 'Web Development Intern',
-      company: 'Codsoft',
-      period: 'July 2024 - August 2024',
-      description: 'Worked on a Blogging Platform using PHP and a Task Management Tool using MERN.',
+      title: 'React Internship',
+      company: 'Masstor',
+      period: 'August 2022 - Oct 2022',
+      description: 'Aspiring React Developer eager to learn and contribute to real-world projects using modern web technologies.',
     },
     {
-      title: 'Artificial Intelligence Intern',
-      company: 'IBM SkillsBuild',
-      period: ' June 2024 - July 2024',
-      description: 'Completed IBM SkillBuild AI Internship, gaining hands-on experience in artificial intelligence and machine learning',
-    },
-    {
-      title: 'Artificial Intelligence Intern',
-      company: 'Codsoft',
-      period: 'June 2024 - July 2024.',
-      description: 'Completed Codsoft AI Internship, working on AI projects and gaining practical experience in machine learning concepts.',
-    },
-    {
-      title: 'ReactJS Internship',
-      company: 'Infolabz IT Services Pvt Ltd.',
-      period: 'June 2024 - July 2024',
-      description: 'Developed a Recipe Finder, Weather App Web Application using ReactJS and APIs.',
-    },
-    {
-      title: 'ReactJS Developer Intern',
-      company: 'Generation Next',
-      period: 'January 2025 - present',
-      description: 'Currently working on an innovative Job Board project for Generation Next.',
+      title: 'React Native Developer',
+      company: 'Masstor',
+      period: 'November 2022 - present',
+      description: 'Currently working on an innovative Job Board project for Masstor.',
     },
 
   ];
@@ -62,7 +44,7 @@ export default function About() {
         <section className="py-20 bg-slate-800 text-rose-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">About Me</h1>
-            <p className="text-xl">Aspiring ReactJS developer with hands-on experience in building scalable web applications.</p>
+            <p className="text-xl">Passionate React developer focused on crafting scalable, high-performance web apps with great user experience.</p>
           </div>
         </section>
 
@@ -72,13 +54,16 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">My Story</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I am a dedicated ReactJS developer with experience in frontend and backend technologies. My journey includes internships at IBM SkillBuild, Codsoft, Infolabz and Generation Next, where I built applications using ReactJS, MERN stack, and AI-driven solutions.
+                  I am a dedicated ReactJS developer with hands-on experience in both frontend and backend technologies. My journey includes impactful internships at Masstor, where I contributed to real-world projects using React Native, and even AI-driven solutions.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
-                  Recently, I developed an Expense Tracker using ReactJS and Firebase for real-time expense management. I thrive on building scalable web applications that provide seamless user experiences.
+                  During working at Masstor, I played a key role in developing modules for principals, teachers, and students, focusing on scalable and user-friendly design. I've also worked on personal and team projects like a Social Media App, a Task Management App, built using ReactJ Native and Firebase for real-time expense handling.
+                </p>
+                <p className="text-lg text-gray-700 mb-4">
+                  I’m passionate about building modern web applications that offer seamless user experiences and are built for performance and scalability.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Beyond coding, I enjoy sketching, traveling, and participating in technical workshops to stay updated with the latest industry trends.
+                  Beyond coding, I enjoy sketching, traveling, and staying engaged with the tech community through technical workshops and continuous learning.
                 </p>
               </div>
               <div>

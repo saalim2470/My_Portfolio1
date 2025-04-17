@@ -81,10 +81,10 @@ const Navbar = () => {
                     className={`relative px-4 py-2 rounded-md font-medium transition duration-300 ${
                       isActive(item.path)
                         ? isScrolled 
-                          ? 'text-slate-800 bg-indigo-50' 
+                          ? 'text-slate-800 bg-slate-50' 
                           : 'text-rose-500 bg-white/10'
                         : isScrolled 
-                          ? 'text-rose-400 hover:text-slate-500 hover:bg-indigo-50' 
+                          ? 'text-rose-400 hover:text-slate-500 hover:bg-rose-50' 
                           : 'text-rose-100 hover:text-rose-400 hover:bg-white/10'
                     }`}
                   >
@@ -104,7 +104,7 @@ const Navbar = () => {
               onClick={toggleMenu}
               className={`p-2 rounded-md focus:outline-none ${
                 isScrolled 
-                  ? 'text-gray-800 hover:bg-gray-100' 
+                  ? 'text-slate-800 hover:bg-slate-50' 
                   : 'text-white hover:bg-white/10'
               }`}
               aria-label="Toggle menu"
@@ -145,7 +145,7 @@ const Navbar = () => {
                 href={item.path}
                 className={`font-medium px-4 py-3 rounded-md ${
                   isActive(item.path)
-                    ? 'text-slate-800 bg-indigo-50'
+                    ? 'text-slate-800 bg-slate-50'
                     : 'text-rose-400 hover:text-slate-500 hover:bg-indigo-50'
                 }`}
                 onClick={closeMenu}

@@ -105,9 +105,9 @@ const Footer = () => {
           <p className="text-center text-gray-400">
             &copy; {currentYear} Saalim Shaikh. All rights reserved.
           </p>
-          <p className="text-center text-gray-500 text-sm mt-2">
+          {/* <p className="text-center text-gray-500 text-sm mt-2">
             Designed and built with Next.js and TailwindCSS
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

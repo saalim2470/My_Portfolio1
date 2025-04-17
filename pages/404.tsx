@@ -16,7 +16,7 @@ export default function Custom404() {
           </p>
           <Link 
             href="/" 
-            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-md font-semibold transition duration-300"
+            className="bg-rose-500 hover:bg-rose-600 text-slate-300 px-6 py-3 rounded-md font-semibold transition duration-300"
           >
             Go back home
           </Link>
